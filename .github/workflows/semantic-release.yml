@@ -32,7 +32,7 @@ jobs:
             @semantic-release/git
         env:
           GITHUB_TOKEN: ${{ secrets.SEMVER_GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       # Get modules from cache
       - name: Cache Node.js modules
         uses: actions/cache@v2
@@ -49,28 +49,28 @@ jobs:
         env:
           VERSION_NUMBER: ${{ steps.dry_release.outputs.new_release_version }}
       # Publish the release IF the version number is being changed
-      - name: Publish package
-        if: steps.dry_release.outputs.new_release_published == 'true'
-        run: npx semantic-release
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.SEMVER_GITHUB_TOKEN }}
-      # Deploy build folder to Netlify IF the branch is master
-      - name: Deploy to Netlify
-        if: github.ref == 'refs/heads/master' && !startsWith(github.event.head_commit.message, 'ci:') && !contains(github.event.head_commit.message, '[skip netlify]')
-        uses: nwtgck/actions-netlify@v1.1.11
-        with:
-          publish-dir: './build'
-          production-branch: master
-          production-deploy: true
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: '${{ github.event.head_commit.message }}'
-          enable-pull-request-comment: false
-          overwrites-pull-request-comment: false
-          enable-commit-comment: false
-          enable-commit-status: false
-          netlify-config-path: ./netlify.toml
-          # functions-dir: ./functions
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      # - name: Publish package
+      #   if: steps.dry_release.outputs.new_release_published == 'true'
+      #   run: npx semantic-release
+      #   env:
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #     GITHUB_TOKEN: ${{ secrets.SEMVER_GITHUB_TOKEN }}
+      # # Deploy build folder to Netlify IF the branch is master
+      # - name: Deploy to Netlify
+      #   if: github.ref == 'refs/heads/master' && !startsWith(github.event.head_commit.message, 'ci:') && !contains(github.event.head_commit.message, '[skip netlify]')
+      #   uses: nwtgck/actions-netlify@v1.1.11
+      #   with:
+      #     publish-dir: './build'
+      #     production-branch: master
+      #     production-deploy: true
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     deploy-message: '${{ github.event.head_commit.message }}'
+      #     enable-pull-request-comment: false
+      #     overwrites-pull-request-comment: false
+      #     enable-commit-comment: false
+      #     enable-commit-status: false
+      #     netlify-config-path: ./netlify.toml
+      #     # functions-dir: ./functions
+      #   env:
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
