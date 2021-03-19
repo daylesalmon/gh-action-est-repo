@@ -6,8 +6,8 @@ on:
       - release
 
 jobs:
-  eslint:
-    name: eslint
+  buildApp:
+    name: try build app
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -24,12 +24,8 @@ jobs:
             ${{ runner.os }}-node-
       - name: Install dependencies
         run: npm ci
-      - name: eslint
-        uses: reviewdog/action-eslint@v1
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-pr-check
-          eslint_flags: 'src/'
+      - name: building app
+        run: npm run build
 
   sass-lint:
     name: sass-lint
@@ -50,25 +46,4 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: sass-lint
-        run: npm run build:styles
-
-  lint-templates:
-    name: lint templates
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14.x'
-      - name: Cache Node.js modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-      - name: Install dependencies
-        run: npm ci
-      - name: Lint templates
-        run: npm run build:templates
+        run: npx sass-lin src/**/*.scss
