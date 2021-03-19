@@ -25,7 +25,7 @@ jobs:
       - name: Build site
         run: |
           npm ci
-          npm run build:all
+          npm run build
       - name: Deploy netlify preview
         uses: nwtgck/actions-netlify@v1.1.11
         with:
