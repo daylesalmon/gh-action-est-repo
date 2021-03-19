@@ -34,6 +34,7 @@ jobs:
         run: npx eslint src/
 
   buildApp:
+    needs: install-dependancies
     name: try build app
     runs-on: ubuntu-latest
     steps:
