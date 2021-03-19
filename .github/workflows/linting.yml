@@ -6,8 +6,8 @@ on:
       - release
 
 jobs:
-  install-dependancies:
-    name: install-dependancies
+  buildApp:
+    name: try build app
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -24,19 +24,26 @@ jobs:
             ${{ runner.os }}-node-
       - name: Install dependencies
         run: npm ci
-
-  eslint:
-    needs: install-dependancies
-    name: eslint
-    runs-on: ubuntu-latest
-    steps:
-      - name: eslint
-        run: npx eslint src/
-
-  buildApp:
-    needs: install-dependancies
-    name: try build app
-    runs-on: ubuntu-latest
-    steps:
       - name: building app
         run: npm run build
+
+  sass-lint:
+    name: sass-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Cache Node.js modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install dependencies
+        run: npm ci
+      - name: sass-lint
+        run: npx sass-lin src/**/*.scss
