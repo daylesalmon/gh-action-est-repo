@@ -33,18 +33,9 @@ jobs:
       - name: eslint
         run: npx eslint src/
 
-  sass-lint:
-    needs: install-dependancies
-    name: sass-lint
+  buildApp:
+    name: try build app
     runs-on: ubuntu-latest
     steps:
-      - name: sass-lint
-        run: npm run build:styles
-
-  lint-templates:
-    needs: install-dependancies
-    name: lint templates
-    runs-on: ubuntu-latest
-    steps:
-      - name: Lint templates
-        run: npm run build:templates
+      - name: building app
+        run: npm run build
