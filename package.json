@@ -1,6 +1,6 @@
 {
   "name": "wmn-create-react-app-template",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": true,
   "author": "WMCA",
   "main": "src/index.js",
@@ -15,7 +15,8 @@
     "update-packages": "ncu",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "semantic-release": "semantic-release"
   },
   "release": {
     "plugins": [
