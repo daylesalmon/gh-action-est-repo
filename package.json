@@ -1,6 +1,6 @@
 {
   "name": "wmn-create-react-app-template",
-  "version": "0.0.0-development",
+  "version": "1.0.4",
   "private": true,
   "author": "WMCA",
   "main": "src/index.js",
