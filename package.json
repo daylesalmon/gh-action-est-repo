@@ -4,9 +4,9 @@
   "private": true,
   "author": "WMCA",
   "main": "src/index.js",
-  "repository": "https://github.com/wmcadigital/gh-action-test-repo",
+  "repository": "https://github.com/daylesalmon/gh-action-test-repo",
   "bugs": {
-    "url": "https://github.com/wmcadigital/gh-action-test-repo/issues"
+    "url": "https://github.com/daylesalmon/gh-action-test-repo/issues"
   },
   "copyright": "WMCA",
   "scripts": {
