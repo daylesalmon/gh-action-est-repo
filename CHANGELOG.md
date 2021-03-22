@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.4.0...v1.4.1) (2021-03-22)
+
+
+### Bug Fixes
+
+* removed the typo ([ec43fde](https://github.com/daylesalmon/gh-action-test-repo/commit/ec43fde119602cd5813acfb0f403608d7747de15)), closes [#45](https://github.com/daylesalmon/gh-action-test-repo/issues/45)
+
 # [1.4.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.3...v1.4.0) (2021-03-22)
 
 
