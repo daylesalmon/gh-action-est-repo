@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.4.1...v1.4.2) (2021-03-22)
+
+
+### Bug Fixes
+
+* updated channel ([e466c7f](https://github.com/daylesalmon/gh-action-test-repo/commit/e466c7fe942e04e4b8363fcafa4a612bcd5f4186))
+
 ## [1.4.1](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.4.0...v1.4.1) (2021-03-22)
 
 
