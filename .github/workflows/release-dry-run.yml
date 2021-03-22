@@ -1,4 +1,4 @@
-name: Release
+name: Dry release
 on:
   pull_request:
     branches:
