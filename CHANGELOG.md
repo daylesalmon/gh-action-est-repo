@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.1...v1.3.2) (2021-03-22)
+
+
+### Bug Fixes
+
+* updated order of plugins ([74c0451](https://github.com/daylesalmon/gh-action-test-repo/commit/74c0451bc9496f9e2c6b3d95ddd46d01e251da6b))
+
 ## [1.3.1](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.0...v1.3.1) (2021-03-22)
 
 
