@@ -4,7 +4,7 @@
 ### Bug Fixes
 
 * added a typo ([edc2294](https://github.com/daylesalmon/gh-action-test-repo/commit/edc2294ea165c8845d5997316c507ae47178757a))
-* removed typo ([5f2d67a](https://github.com/daylesalmon/gh-action-test-repo/commit/5f2d67aa9f82d9daf26d822d25ffd8d7d2d62a50))
+
 
 
 ### Features
