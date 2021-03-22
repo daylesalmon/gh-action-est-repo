@@ -1,6 +1,13 @@
-## [1.0.4](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.0.3...v1.0.4) (2021-03-21)
+
+# [1.1.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.0.5...v1.1.0) (2021-03-22)
 
 
-### Bug Fixes
+### Features
 
-* syntax error ([607dbb5](https://github.com/daylesalmon/gh-action-test-repo/commit/607dbb5cea1ebd99aad4ff1b09ba9738fdbe6a6d))
+* typo introduced ([115485a](https://github.com/daylesalmon/gh-action-test-repo/commit/115485ae233ca0a330f4c7ee46779ab5407ed079))
+
+
+
+
+
+
