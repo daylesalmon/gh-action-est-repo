@@ -1,3 +1,24 @@
+## [1.3.3](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.2...v1.3.3) (2021-03-22)
+
+
+### Bug Fixes
+
+* persisted var ([f340985](https://github.com/daylesalmon/gh-action-test-repo/commit/f34098543f52303be8ba38a4003116c40f392245))
+
+## [1.3.2](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.1...v1.3.2) (2021-03-22)
+
+
+### Bug Fixes
+
+* updated order of plugins ([74c0451](https://github.com/daylesalmon/gh-action-test-repo/commit/74c0451bc9496f9e2c6b3d95ddd46d01e251da6b))
+
+## [1.3.1](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.0...v1.3.1) (2021-03-22)
+
+
+### Bug Fixes
+
+* Removed typos ([#42](https://github.com/daylesalmon/gh-action-test-repo/issues/42)) ([03c7c55](https://github.com/daylesalmon/gh-action-test-repo/commit/03c7c55a60be2cfef2eab2bb37d41fec12922080)), closes [#41](https://github.com/daylesalmon/gh-action-test-repo/issues/41)
+
 # [1.3.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.2.1...v1.3.0) (2021-03-22)
 
 
