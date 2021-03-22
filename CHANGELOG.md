@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.2...v1.3.3) (2021-03-22)
+
+
+### Bug Fixes
+
+* persisted var ([f340985](https://github.com/daylesalmon/gh-action-test-repo/commit/f34098543f52303be8ba38a4003116c40f392245))
+
 ## [1.3.2](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.1...v1.3.2) (2021-03-22)
 
 
