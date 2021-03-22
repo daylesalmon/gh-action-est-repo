@@ -1,3 +1,10 @@
+## [1.4.3-release.1](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.4.2...v1.4.3-release.1) (2021-03-22)
+
+
+### Bug Fixes
+
+* release branch is now a prerelease ([c53c149](https://github.com/daylesalmon/gh-action-test-repo/commit/c53c149af95839b2c434c18a0de69126aedbb25a))
+
 ## [1.4.2](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.4.1...v1.4.2) (2021-03-22)
 
 
