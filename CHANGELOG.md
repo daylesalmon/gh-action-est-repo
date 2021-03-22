@@ -5,6 +5,21 @@
 
 * added a typo ([edc2294](https://github.com/daylesalmon/gh-action-test-repo/commit/edc2294ea165c8845d5997316c507ae47178757a))
 * removed typo ([5f2d67a](https://github.com/daylesalmon/gh-action-test-repo/commit/5f2d67aa9f82d9daf26d822d25ffd8d7d2d62a50))
+* removed typo...again ([925c935](https://github.com/daylesalmon/gh-action-test-repo/commit/925c93583596bacf610061a8a945d95c42852efe))
+* updated to release ([48ba6a6](https://github.com/daylesalmon/gh-action-test-repo/commit/48ba6a62b0bd4ef82a0851d641df044f19784c2e))
+
+
+### Features
+
+* add typo ([03aa605](https://github.com/daylesalmon/gh-action-test-repo/commit/03aa605b2cca53e1b7369773deaf05d8cf58ae97))
+
+# [1.6.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.5.0...v1.6.0) (2021-03-22)
+
+
+### Bug Fixes
+
+* added a typo ([edc2294](https://github.com/daylesalmon/gh-action-test-repo/commit/edc2294ea165c8845d5997316c507ae47178757a))
+* removed typo ([5f2d67a](https://github.com/daylesalmon/gh-action-test-repo/commit/5f2d67aa9f82d9daf26d822d25ffd8d7d2d62a50))
 * updated to release ([48ba6a6](https://github.com/daylesalmon/gh-action-test-repo/commit/48ba6a62b0bd4ef82a0851d641df044f19784c2e))
 
 
