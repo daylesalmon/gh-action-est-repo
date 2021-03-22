@@ -1,3 +1,10 @@
+# [1.5.0-beta.3](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.5.0-beta.2...v1.5.0-beta.3) (2021-03-22)
+
+
+### Features
+
+* add typo ([03aa605](https://github.com/daylesalmon/gh-action-test-repo/commit/03aa605b2cca53e1b7369773deaf05d8cf58ae97))
+
 # [1.5.0-beta.2](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.5.0-beta.1...v1.5.0-beta.2) (2021-03-22)
 
 
