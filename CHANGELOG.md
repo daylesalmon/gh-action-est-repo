@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.2.0...v1.2.1) (2021-03-22)
+
+
+### Bug Fixes
+
+* added hello message ([#38](https://github.com/daylesalmon/gh-action-test-repo/issues/38)) ([8574b47](https://github.com/daylesalmon/gh-action-test-repo/commit/8574b47a40537f086ca24c45f964001e11c04cff))
+
 # [1.2.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.1.0...v1.2.0) (2021-03-22)
 
 
