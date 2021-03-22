@@ -9,5 +9,5 @@
     }],
     "@semantic-release/git"
   ],
-  "branches": ["main", {"name": "release", "channel": "next"}]
+  "branches": ["main", {"name": "release", "channel": "next", "prerelease": true}]
 }
