@@ -1,8 +1,8 @@
-name: Release
+name: Dry release
 on:
   push:
     branches:
-      - main
+      - release
 
 jobs:
   release:
@@ -23,4 +23,4 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+        run: npx semantic-release --dry-run
