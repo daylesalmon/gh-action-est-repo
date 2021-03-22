@@ -9,5 +9,5 @@
     }],
     "@semantic-release/git"
   ],
-  "branches": ["main", "release"]
+  "branches": ["main"]
 }
