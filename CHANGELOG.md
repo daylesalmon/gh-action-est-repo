@@ -1,3 +1,19 @@
+# [1.9.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.8.0...v1.9.0) (2021-03-22)
+
+
+### Bug Fixes
+
+* corrected workflow syntax ([dd570bc](https://github.com/daylesalmon/gh-action-test-repo/commit/dd570bcc30f113908741cb585d210acbafd43c5f))
+* created dry run option workflow ([f289758](https://github.com/daylesalmon/gh-action-test-repo/commit/f2897585ebcabcad6b04187445fee5f2b484824b))
+* removed typo...a ([6415bc2](https://github.com/daylesalmon/gh-action-test-repo/commit/6415bc227ea7be816254fad2b7474881fd4d95a0))
+* updated job name ([791196a](https://github.com/daylesalmon/gh-action-test-repo/commit/791196a858cba26a5c03539386729aa719bfa34f))
+* updated workflow ([66c99e0](https://github.com/daylesalmon/gh-action-test-repo/commit/66c99e0061b57f76e1b7427db218ae085648f0b4))
+
+
+### Features
+
+* added typo ([27451de](https://github.com/daylesalmon/gh-action-test-repo/commit/27451de958ab097225bc60a9b063a4d83444790b))
+
 # [1.8.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.7.1...v1.8.0) (2021-03-22)
 
 
