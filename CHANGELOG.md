@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.3...v1.4.0) (2021-03-22)
+
+
+### Features
+
+* showing this to Gil ([#44](https://github.com/daylesalmon/gh-action-test-repo/issues/44)) ([7f561df](https://github.com/daylesalmon/gh-action-test-repo/commit/7f561df5fbe788c7bbdc1c9fb5f172e9ab566e73))
+
 ## [1.3.3](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.3.2...v1.3.3) (2021-03-22)
 
 
