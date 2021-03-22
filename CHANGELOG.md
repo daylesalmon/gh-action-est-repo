@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.6.0...v1.7.0) (2021-03-22)
+
+
+### Bug Fixes
+
+* removed typo ([36a97d0](https://github.com/daylesalmon/gh-action-test-repo/commit/36a97d00fb4cedd48301f67b796848c132ab2e7a))
+
+
+### Features
+
+* added typo ([2ed8210](https://github.com/daylesalmon/gh-action-test-repo/commit/2ed82102cfd6b31358c2500e46c2c5088f9b6279))
+
 # [1.6.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.5.0...v1.6.0) (2021-03-22)
 
 
