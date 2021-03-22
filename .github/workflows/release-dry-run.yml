@@ -1,8 +1,8 @@
 name: Dry release
 on:
-  pull_request:
+  push:
     branches:
-      - main
+      - release
 
 jobs:
   release:
