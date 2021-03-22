@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.7.1...v1.8.0) (2021-03-22)
+
+
+### Features
+
+* updated settings ([c33a672](https://github.com/daylesalmon/gh-action-test-repo/commit/c33a672e953ae3c82a333039e149c2d1eb8abc9a))
+
 ## [1.7.1](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.7.0...v1.7.1) (2021-03-22)
 
 
