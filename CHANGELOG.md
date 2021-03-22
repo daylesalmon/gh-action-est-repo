@@ -1,3 +1,10 @@
+# [1.6.0-beta.2](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.6.0-beta.1...v1.6.0-beta.2) (2021-03-22)
+
+
+### Bug Fixes
+
+* added a typo ([edc2294](https://github.com/daylesalmon/gh-action-test-repo/commit/edc2294ea165c8845d5997316c507ae47178757a))
+
 # [1.6.0-beta.1](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.5.0...v1.6.0-beta.1) (2021-03-22)
 
 
