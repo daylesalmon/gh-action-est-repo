@@ -1,3 +1,18 @@
+# [1.5.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.4.2...v1.5.0) (2021-03-22)
+
+
+### Bug Fixes
+
+* changed to beta ([3bccc1c](https://github.com/daylesalmon/gh-action-test-repo/commit/3bccc1cdc6c1a1f9d9ee594ce67974cb349ce00c))
+* release branch is now a prerelease ([c53c149](https://github.com/daylesalmon/gh-action-test-repo/commit/c53c149af95839b2c434c18a0de69126aedbb25a))
+* removed channel ([b735ec6](https://github.com/daylesalmon/gh-action-test-repo/commit/b735ec6a3fb934b8b7faf2d5c3d3973735239b75))
+
+
+### Features
+
+* added a bug ([e75b2bc](https://github.com/daylesalmon/gh-action-test-repo/commit/e75b2bc7cb297781c0da0a7a1c1df248ebdea488))
+* fixed a typo ([674e92a](https://github.com/daylesalmon/gh-action-test-repo/commit/674e92a91c4faf71ae5c7dc56343b5f577529daf))
+
 # [1.5.0-beta.2](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.5.0-beta.1...v1.5.0-beta.2) (2021-03-22)
 
 
