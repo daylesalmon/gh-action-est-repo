@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-        path: relative_path
+          path: relative_path
 
       - name: Label Fixed Issues
         uses: gh-bot/fix-labeler@v2
