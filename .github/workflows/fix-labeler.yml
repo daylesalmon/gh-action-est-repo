@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Label Fixed Issues
-        uses: gh-bot/fix-labeler@master
+        uses: gh-bot/fix-labeler@v2
   # with:
     # By default the action is using Personal access token (PAT) used to fetch
     # the repository.
