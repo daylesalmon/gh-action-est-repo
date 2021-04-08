@@ -29,7 +29,7 @@ jobs:
     # repository, nothing is annotated
     #
     # Default: Current branch name
-    label: 'Awaiting go live ✅'
+    # label: 'Awaiting go live ✅'
 
     # Relative path under $GITHUB_WORKSPACE to place the repository
     #
