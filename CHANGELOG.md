@@ -1,3 +1,20 @@
+# [1.10.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.9.0...v1.10.0) (2021-08-18)
+
+
+### Bug Fixes
+
+* channel is now false ([983e3a2](https://github.com/daylesalmon/gh-action-test-repo/commit/983e3a2e62f1baa0dde74d0d1d033b9dc24959e8))
+* made into a prerelease branch ([6d158b2](https://github.com/daylesalmon/gh-action-test-repo/commit/6d158b2f551fe24b8e288a1215389f0355af8af8))
+* re-added release ([dc9aa27](https://github.com/daylesalmon/gh-action-test-repo/commit/dc9aa271aeadcd3c666b161c5112aa26a321ac84))
+* remove a bug ([b1c6da0](https://github.com/daylesalmon/gh-action-test-repo/commit/b1c6da0ca631e1a89321ef609a2532d93c7cd918))
+* removed release branch ([eff493f](https://github.com/daylesalmon/gh-action-test-repo/commit/eff493f9636eb7922d234863ca8d2d20033ccff3))
+* updated pr release notes ([4f132c1](https://github.com/daylesalmon/gh-action-test-repo/commit/4f132c1fb0a8d74a2bf9f23861271139a8e28561))
+
+
+### Features
+
+* add a bug ([8914f3c](https://github.com/daylesalmon/gh-action-test-repo/commit/8914f3c15b5e5e3b3f06fbf45906f0b021cdc193))
+
 # [1.9.0](https://github.com/daylesalmon/gh-action-test-repo/compare/v1.8.0...v1.9.0) (2021-03-22)
 
 
