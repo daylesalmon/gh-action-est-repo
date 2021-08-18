@@ -13,14 +13,14 @@ jobs:
   slack:
     runs-on: ubuntu-latest
     steps:
-      - name: Slackify the release body
-        id: release_body
-        uses: LoveToKnow/slackify-markdown-action@v1.0.0
-        with:
-          text: ${{ github.event.release.body }}
-      - uses: homeday-de/slack-release-bot-action@main
-        with:
-          webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
-          title: ${{ github.event.release.name }}
-          body: ${{ steps.release_body.outputs.text }}
-          context: Homeday Blocks
+    - name: Announce on Slack 📢
+      shell: bash
+      run: |
+        curl ${{ secrets.SLACK_WEBHOOK_URL }} \
+          --request POST \
+          --header 'Content-type: application/json' \
+          --data \
+            '{
+              "title": ${{ github.event.release.name }}
+              "body": ${{ github.event.release.body }}
+            }'
