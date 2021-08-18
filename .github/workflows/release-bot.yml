@@ -21,6 +21,6 @@ jobs:
           --header 'Content-type: application/json' \
           --data \
             '{
-              "title": ${{ github.event.release.name }}
-              "body": ${{ github.event.release.body }}
+              "title": "${{ github.event.release.name }}"
+              "body": "${{ github.event.release.body }}"
             }'
