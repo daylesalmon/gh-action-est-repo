@@ -26,6 +26,40 @@ jobs:
           --header 'Content-type: application/json' \
           --data \
             '{
-              "title": "${{ github.event.release.name }}",
-              "body": "${{ steps.release_body.outputs.text }}"
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": ":rocket: [Web] Loop Design System ${{ github.event.release.name }} has been released! :rocket:"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "<${{ github.event.release.html_url }}|${{ github.event.release.name }} release notes on GitHub>"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "${{ steps.release_body.outputs.text }}"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Thanks for using the <https://github.com/BTplc/loop-next|Loop Design System>!"
+                  }
+                }
+              ]
             }'
